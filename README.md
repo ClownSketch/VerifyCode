@@ -1,24 +1,28 @@
 # VerifyCode
 使用Python给图片去干扰线和噪点
 
-Img.py     处理验证码，对验证码进行去燥，分割
-Crack.py   破解验证码，得到验证码数据
-此程序运行在Python3.5版本上，不是Python3请更新Python版本或更改代码，
-缺少需要的模块请自行下载，需要的模块可以直接用 pip install 模块名下载
+Img.py     处理验证码，对验证码进行去燥，分割 <br>
+Crack.py   破解验证码，得到验证码数据			<br>
+此程序运行在Python3.5版本上，不是Python3请更新Python版本或更改代码，<br>
+缺少需要的模块请自行下载，需要的模块可以直接用 pip install 模块名直接下载<br>
 
-初始化程序，
+初始化程序，<br>
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/1.png)
 
 如果没有测试图片，可执行GetImgCode方法获取图片，自定义下载验证码地址
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/4.png)
 
 简单的干扰线去除效果还算可以，干扰线去的还算干净
+
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/2.png)
+
 ↓↓↓↓↓↓↓↓↓这是原图↓↓↓↓↓↓↓↓↓
+
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/5.png)
 
 ↓↓↓↓↓↓↓↓↓但是几条干扰线离的太进，就出现问题了↓↓↓↓↓↓↓↓↓
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/3.png)
+
 ↓↓↓↓↓↓↓↓↓这是原图↓↓↓↓↓↓↓↓↓
 ![image](https://raw.githubusercontent.com/Guardiant/VerifyCode/master/test_code/6.png)
 
