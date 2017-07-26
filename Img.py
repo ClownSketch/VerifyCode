@@ -11,7 +11,7 @@ from Crack import *
 
 
 Get_path = "./img_data/"    #下载图片保存路径
-Get_url = "http://www.miibeian.gov.cn/getVerifyCode?"
+Get_url = ""
 Get_number = 10             #下载图片数量
 Edit_path = './Edit/'       #灰度图目录
 Edit_name = ''              #保存灰度图名称
